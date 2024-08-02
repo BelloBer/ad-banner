@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "title": "Rise and Shine",
+    "description": "Conquer Your Day",
+    "cta": "Achieve Greatness",
+    "image": "/images/banner1.jpg",
+    "background": "linear-gradient(45deg, #FFA500, #FFD700)"
+  },
+  {
+    "id": "2",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner2.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "3",
+    "title": "Bubble Innovation",
+    "description": "Shape Your Future",
+    "cta": "Explore Now",
+    "image": "/images/banner3.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "4",
+    "title": "Geek your geek",
+    "description": "Your Future your life",
+    "cta": "See How",
+    "image": "/images/banner4.jpg",
+    "background": "linear-gradient(45deg, #FFA500, #FFD700)"
+  },
+  {
+    "id": "5",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner5.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "6",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "View Now",
+    "image": "/images/banner6.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "7",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner7.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "8",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner9.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "10",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner10.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "11",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner11.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "12",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner12.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "13",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner13.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "14",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner14.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "15",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner15.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "16",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner16.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "17",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner17.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "18",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner18.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "19",
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/banner19.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  }
+]
