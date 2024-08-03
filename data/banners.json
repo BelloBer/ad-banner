@@ -1,154 +1,173 @@
 [
   {
     "id": "1",
-    "title": "Rise and Shine",
-    "description": "Conquer Your Day",
-    "cta": "Achieve Greatness",
-    "image": "/images/bubble.svg",
-    "background": "/images/banner1.jpg"
+    "title": "Fitness Fusion",
+    "description": "Blend Yoga, Dance, and Strength Training",
+    "cta": "Join the Movement",
+    "image": "/images/bubble17.png",
+    "background": "/images/banner17.jpg",
+    "attribution": ""
   },
   {
     "id": "2",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
-    "image": "/images/banner2.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "title": "UX Unicorn",
+    "description": "Craft Magical User Experiences",
+    "cta": "Sprinkle Some Magic",
+    "image": "/images/bubble13.png",
+    "background": "/images/banner12.jpg",
+    "attribution": ""
   },
   {
     "id": "3",
     "title": "Bubble Innovation",
     "description": "Shape Your Future",
     "cta": "Explore Now",
-    "image": "/images/banner3.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble20.png",
+    "background": "/images/banner3.jpg",
+    "attribution": ""
   },
   {
     "id": "4",
     "title": "Geek your geek",
     "description": "Your Future your life",
     "cta": "See How",
-    "image": "/images/banner4.jpg",
-    "background": "linear-gradient(45deg, #FFA500, #FFD700)"
+    "image": "/images/bubble4.png",
+    "background": "/images/banner4.jpg",
+    "attribution": ""
   },
   {
     "id": "5",
     "title": "Quantum Leap",
     "description": "Take Your Skills to the Next Level",
     "cta": "Jump In",
-    "image": "/images/banner5.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble5.png",
+    "background": "/images/banner5.jpg",
+    "attribution": ""
   },
   {
     "id": "6",
     "title": "Pixel Perfect",
     "description": "Craft Your Digital Masterpiece",
     "cta": "Start Creating",
-    "image": "/images/banner6.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble4.png",
+    "background": "/images/banner6.jpg",
+    "attribution": ""
   },
   {
     "id": "7",
     "title": "Code Breaker",
     "description": "Unlock the Secrets of Programming",
     "cta": "Decode Now",
-    "image": "/images/banner7.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble7.png",
+    "background": "/images/banner7.jpg",
+    "attribution": ""
   },
   {
     "id": "8",
     "title": "Tech Titan",
     "description": "Dominate the Digital Landscape",
     "cta": "Claim Your Crown",
-    "image": "/images/banner8.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble8.png",
+    "background": "/images/banner8.jpg",
+    "attribution": ""
   },
   {
     "id": "9",
     "title": "Data Dynamo",
     "description": "Harness the Power of Big Data",
     "cta": "Unleash Insights",
-    "image": "/images/banner9.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble9.png",
+    "background": "/images/banner9.jpg",
+    "attribution": ""
   },
   {
     "id": "10",
     "title": "AI Alchemist",
     "description": "Transform Ideas into Intelligent Solutions",
     "cta": "Start Innovating",
-    "image": "/images/banner10.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble10.png",
+    "background": "/images/banner10.jpg",
+    "attribution": ""
   },
   {
     "id": "11",
-    "title": "Cyber Sentinel",
-    "description": "Protect Your Digital Fortress",
-    "cta": "Secure Now",
-    "image": "/images/banner11.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "title": "Imagine",
+    "description": "Dream Big, Achieve More",
+    "cta": "Start Now",
+    "image": "/images/bubble2.png",
+    "background": "/images/banner2.jpg",
+    "attribution": ""
   },
   {
     "id": "12",
-    "title": "UX Unicorn",
-    "description": "Craft Magical User Experiences",
-    "cta": "Sprinkle Some Magic",
-    "image": "/images/banner12.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "title": "Cyber Sentinel",
+    "description": "Protect Your Digital Fortress",
+    "cta": "Secure Now",
+    "image": "/images/bubble11.png",
+    "background": "/images/banner11.jpg",
+    "attribution": ""
   },
   {
     "id": "13",
     "title": "Cloud Conqueror",
     "description": "Soar Above with Cutting-Edge Cloud Solutions",
     "cta": "Elevate Your Business",
-    "image": "/images/banner13.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble6.png",
+    "background": "/images/banner13.jpg",
+    "attribution": ""
   },
   {
     "id": "14",
     "title": "Culinary Adventures",
     "description": "Explore Global Flavors from Your Kitchen",
     "cta": "Start Cooking",
-    "image": "/images/banner14.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble14.png",
+    "background": "/images/banner14.jpg",
+    "attribution": ""
   },
   {
     "id": "15",
     "title": "Green Thumb Guru",
     "description": "Transform Your Space with Indoor Plants",
     "cta": "Grow With Us",
-    "image": "/images/banner15.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble15.webp",
+    "background": "/images/banner15.jpg",
+    "attribution": ""
   },
   {
     "id": "16",
     "title": "Wanderlust Wonders",
     "description": "Discover Hidden Gems Around the World",
     "cta": "Plan Your Adventure",
-    "image": "/images/banner16.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble16.png",
+    "background": "/images/banner16.jpg",
+    "attribution": ""
   },
   {
     "id": "17",
-    "title": "Fitness Fusion",
-    "description": "Blend Yoga, Dance, and Strength Training",
-    "cta": "Join the Movement",
-    "image": "/images/banner17.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "title": "Rise and Shine",
+    "description": "Conquer Your Day",
+    "cta": "Achieve Greatness",
+    "image": "/images/bubble.svg",
+    "background": "/images/banner1.jpg",
+    "attribution": ""
   },
   {
     "id": "18",
     "title": "Artisan Crafts",
     "description": "Handmade Treasures for Your Home",
     "cta": "Shop Unique Pieces",
-    "image": "/images/banner18.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble18.png",
+    "background": "/images/banner18.jpg",
+    "attribution": ""
   },
   {
     "id": "19",
     "title": "Mindful Moments",
     "description": "Cultivate Inner Peace Through Meditation",
     "cta": "Begin Your Journey",
-    "image": "/images/banner19.jpg",
-    "background": "linear-gradient(45deg, #000000, #333333)"
+    "image": "/images/bubble19.png",
+    "background": "/images/banner19.jpg",
+    "attribution": ""
   }
 ]
