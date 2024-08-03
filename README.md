@@ -4,7 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Easily manage and edit ad banners. Explore a variety of creative and engaging banners that captivate your audience.
 
-![Ad Banner Manager Screenshot 1](public/images/Screenshot-08-03-2024-20.40.12.png)
+![Ad Banner Manager Screenshot 1](public/images
+/Screenshot 08-03-2024 20.40.48.png)
 
 ## Features
 
