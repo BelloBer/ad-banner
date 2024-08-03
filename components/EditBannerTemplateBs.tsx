@@ -42,8 +42,8 @@ const Form = styled.form`
   .download {
     color: blue;
     background: white;
-    &:active{
-    transform: scale(0.9);
+    &:active {
+      transform: scale(0.9);
     }
   }
 `;
@@ -78,9 +78,7 @@ const TextArea = styled.textarea`
 
 const ButtonGroup = styled.div`
   display: block;
-  
   justify-content: center;
-  
   margin: 5px;
   position: fixed;
   bottom: 90px;
@@ -98,9 +96,9 @@ const Button = styled.button`
   border: none;
   cursor: pointer;
   background: #01301a;
-  &:active{
+  &:active {
     transform: scale(0.9);
-    }
+  }
 `;
 
 const CancelButton = styled(Button)`
@@ -133,8 +131,22 @@ interface Props {
   onClose: () => void;
 }
 
+const attributionLinks: { [key: string]: string } = {
+  "/images/bubble2.png": '<a href="https://www.vecteezy.com/free-png/border">Border PNGs by Vecteezy</a>',
+  "/images/bubble3.png": '<a href="https://www.vecteezy.com/free-png/banner-background">Banner Background PNGs by Vecteezy</a>',
+  "/images/bubble4.png": '<a href="https://www.vecteezy.com/free-png/heart">Heart PNGs by Vecteezy</a>',
+  "/images/bubble5.png": '<a href="https://www.vecteezy.com/free-png/banner-background">Banner Background PNGs by Vecteezy</a>',
+  "/images/bubble6.png": '<a href="https://www.vecteezy.com/free-png/modern-frame">Modern Frame PNGs by Vecteezy</a>',
+  "/images/bubble7.png": '<a href="https://www.vecteezy.com/free-png/green-gold">Green Gold PNGs by Vecteezy</a>',
+  "/images/bubble8.png": '<a href="https://www.vecteezy.com/free-png/islamic-background">Islamic Background PNGs by Vecteezy</a>',
+  "/images/bubble9.png": '<a href="https://www.vecteezy.com/free-png/border">Border PNGs by Vecteezy</a>'
+};
+
 const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
-  const [editedBanner, setEditedBanner] = useState<Banner>(banner);
+  const [editedBanner, setEditedBanner] = useState<Banner>({
+    ...banner,
+    attribution: attributionLinks[banner.image] || banner.attribution
+  });
   const bannerRef = useRef<HTMLDivElement>(null);
 
   // Sample image URLs
@@ -158,7 +170,6 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
     '/images/banner17.jpg',
     '/images/banner18.jpg',
     '/images/banner19.jpg',
-    
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -174,7 +185,6 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
   const handleDownload = async () => {
     if (bannerRef.current) {
       const canvas = await html2canvas(bannerRef.current, {
-        
         useCORS: true, // Enable CORS
       });
       const link = document.createElement('a');
@@ -184,12 +194,8 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
     }
   };
 
-  const handleDone = () => {
-    // Add any functionality for the "Done" button here if needed
-  };
-
   const handleImageSelect = (url: string) => {
-    setEditedBanner(prev => ({ ...prev, image: url }));
+    setEditedBanner(prev => ({ ...prev, background: url }));
   };
 
   return (
@@ -204,6 +210,7 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
 
         <div className="mb-4" ref={bannerRef}>
           <BannerImageComp banner={editedBanner} onEdit={() => {}} isDownloading={true} />
+          <p className="text-sm text-gray-500 mt-2" dangerouslySetInnerHTML={{ __html: editedBanner.attribution }} />
         </div>
 
         <ModalTitle>Images</ModalTitle>
@@ -213,7 +220,7 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
             <ImageOption
               key={index}
               src={url}
-              selected={editedBanner.image === url}
+              selected={editedBanner.background === url}
               onClick={() => handleImageSelect(url)}
             />
           ))}
@@ -249,9 +256,8 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
               onChange={handleChange}
             />
           </FormGroup>
-          
-          <Button className='done'>Done</Button>
-          <Button type="button" onClick={handleDownload} className='download'>Download</Button>
+          <Button className="done">Done</Button>
+          <Button type="button" onClick={handleDownload} className="download">Download</Button>
         </Form>
       </ModalContent>
     </ModalOverlay>
@@ -259,4 +265,3 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
 };
 
 export default EditBannerTemplateBs;
-
