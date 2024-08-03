@@ -33,113 +33,121 @@
   },
   {
     "id": "5",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Quantum Leap",
+    "description": "Take Your Skills to the Next Level",
+    "cta": "Jump In",
     "image": "/images/banner5.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "6",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "View Now",
+    "title": "Pixel Perfect",
+    "description": "Craft Your Digital Masterpiece",
+    "cta": "Start Creating",
     "image": "/images/banner6.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "7",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Code Breaker",
+    "description": "Unlock the Secrets of Programming",
+    "cta": "Decode Now",
     "image": "/images/banner7.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "8",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Tech Titan",
+    "description": "Dominate the Digital Landscape",
+    "cta": "Claim Your Crown",
+    "image": "/images/banner8.jpg",
+    "background": "linear-gradient(45deg, #000000, #333333)"
+  },
+  {
+    "id": "9",
+    "title": "Data Dynamo",
+    "description": "Harness the Power of Big Data",
+    "cta": "Unleash Insights",
     "image": "/images/banner9.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "10",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "AI Alchemist",
+    "description": "Transform Ideas into Intelligent Solutions",
+    "cta": "Start Innovating",
     "image": "/images/banner10.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "11",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Cyber Sentinel",
+    "description": "Protect Your Digital Fortress",
+    "cta": "Secure Now",
     "image": "/images/banner11.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "12",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "UX Unicorn",
+    "description": "Craft Magical User Experiences",
+    "cta": "Sprinkle Some Magic",
     "image": "/images/banner12.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "13",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Cloud Conqueror",
+    "description": "Soar Above with Cutting-Edge Cloud Solutions",
+    "cta": "Elevate Your Business",
     "image": "/images/banner13.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "14",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Culinary Adventures",
+    "description": "Explore Global Flavors from Your Kitchen",
+    "cta": "Start Cooking",
     "image": "/images/banner14.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "15",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Green Thumb Guru",
+    "description": "Transform Your Space with Indoor Plants",
+    "cta": "Grow With Us",
     "image": "/images/banner15.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "16",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Wanderlust Wonders",
+    "description": "Discover Hidden Gems Around the World",
+    "cta": "Plan Your Adventure",
     "image": "/images/banner16.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "17",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Fitness Fusion",
+    "description": "Blend Yoga, Dance, and Strength Training",
+    "cta": "Join the Movement",
     "image": "/images/banner17.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "18",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Artisan Crafts",
+    "description": "Handmade Treasures for Your Home",
+    "cta": "Shop Unique Pieces",
     "image": "/images/banner18.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   },
   {
     "id": "19",
-    "title": "Imagine",
-    "description": "Dream Big, Achieve More",
-    "cta": "Start Now",
+    "title": "Mindful Moments",
+    "description": "Cultivate Inner Peace Through Meditation",
+    "cta": "Begin Your Journey",
     "image": "/images/banner19.jpg",
     "background": "linear-gradient(45deg, #000000, #333333)"
   }
