@@ -6,12 +6,14 @@ import { Banner } from '../types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 
+// Props interface for the component
 interface Props {
   banner: Banner;
   onEdit: (id: string) => void;
   isDownloading?: boolean;
 }
 
+// Styles for the buttons
 const buttonStyles = [
   "bg-gradient-to-r from-gray-900 via-red-700 to-purple-900 text-white px-6 py-3 rounded-lg transform hover:scale-105 transition-transform duration-300",
   "bg-gradient-to-r from-yellow-400 to-red-500 text-white px-6 py-3 rounded-full transform hover:rotate-3 transition-transform duration-300",
@@ -21,6 +23,7 @@ const buttonStyles = [
   "bg-gradient-to-r from-gray-700 to-black text-white px-6 py-3 rounded transform hover:skew-y-3 transition-transform duration-300"
 ];
 
+// Positions for the buttons
 const buttonPositions = [
   "bottom-2 left-2",
   "bottom-2 right-2 transform -translate-x-1/2",

@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import html2canvas from 'html2canvas';
 
+// styled components
 const ModalOverlay = styled.div`
   position: fixed;
   inset: 0;
@@ -125,12 +126,14 @@ const ImageOption = styled.img<{ selected: boolean }>`
   border: ${props => (props.selected ? '2px solid #0070f3' : '2px solid transparent')};
 `;
 
+// Props interface for the component
 interface Props {
   banner: Banner;
   onSave: (updatedBanner: Banner) => void;
   onClose: () => void;
 }
 
+// Mapping of image URLs to attribution links
 const attributionLinks: { [key: string]: string } = {
   "/images/bubble2.png": '<a href="https://www.vecteezy.com/free-png/border">Border PNGs by Vecteezy</a>',
   "/images/bubble3.png": '<a href="https://www.vecteezy.com/free-png/banner-background">Banner Background PNGs by Vecteezy</a>',
@@ -142,6 +145,7 @@ const attributionLinks: { [key: string]: string } = {
   "/images/bubble9.png": '<a href="https://www.vecteezy.com/free-png/border">Border PNGs by Vecteezy</a>'
 };
 
+// EditBannerTemplateBs component
 const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
   const [editedBanner, setEditedBanner] = useState<Banner>({
     ...banner,
@@ -182,6 +186,7 @@ const EditBannerTemplateBs: React.FC<Props> = ({ banner, onSave, onClose }) => {
     onSave(editedBanner);
   };
 
+  // Handle download of the banner as an image
   const handleDownload = async () => {
     if (bannerRef.current) {
       const canvas = await html2canvas(bannerRef.current, {
