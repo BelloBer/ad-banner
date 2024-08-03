@@ -4,8 +4,8 @@
     "title": "Rise and Shine",
     "description": "Conquer Your Day",
     "cta": "Achieve Greatness",
-    "image": "/images/banner1.jpg",
-    "background": "linear-gradient(45deg, #FFA500, #FFD700)"
+    "image": "/images/bubble.svg",
+    "background": "/images/banner1.jpg"
   },
   {
     "id": "2",
